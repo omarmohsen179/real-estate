@@ -1,0 +1,51 @@
+.member-list-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0;
+  margin-top: 40px;
+}
+.member-card {
+  margin: 20px;
+  max-width: 300px;
+  min-height: 400px;
+  padding: 0 !important;
+}
+.card-title-team {
+  text-transform: uppercase;
+}
+.clickedJop {
+  max-height: 300px !important;
+}
+.TeamMembers_details {
+  font-size: 13px;
+  color: #8c8989;
+  line-height: normal;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -ms-transition: max-height 1s;
+  -o-transition: max-height 1s;
+  transition: max-height 1s;
+  overflow: hidden;
+  max-height: 0;
+  border-bottom: 2px solid #86110e;
+  padding: 0px;
+  width: 80%;
+}
+.TeamMembers_joptitle:hover {
+  text-decoration: underline;
+}
+.members-icons-container {
+  display: flex;
+  padding: 2px;
+  column-gap: 10px;
+  font-size: 32px;
+  cursor: pointer;
+}
+.TeamMembers_joptitle {
+  font-size: 14px;
+
+  line-height: normal;
+  cursor: pointer;
+  color: #000000;
+}

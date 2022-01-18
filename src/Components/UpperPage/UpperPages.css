@@ -1,0 +1,22 @@
+.header__image2 {
+  display: flex;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  /* height: 512px; */
+  display: flow-root;
+  min-height: 400px;
+  margin-bottom: 150px;
+}
+
+.Text-container-Upper2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1000px) {
+  .Text-container-Upper2 {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,154 @@
+.Upper-info-intro {
+  color: #8b0e08;
+}
+.title-intro {
+  font-size: 39px;
+}
+.intro-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+.subtitle-intro {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.paragraph-intro {
+  color: black;
+}
+.image-intro-container {
+  min-height: 500px;
+  background-color: #8b0e08;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro-container {
+    text-align: center;
+    padding: 0;
+  }
+
+  .image-intro-container {
+    max-height: 300px !important;
+  }
+  .title-MakeOurNumbers {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  .second-intro-container {
+    display: flex;
+    width: 100%;
+
+    /* height: 300px; */
+    width: 100%;
+    margin: auto;
+    margin: 50px 0px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .intro-container {
+    padding: 0 124px;
+  }
+  .second-intro-container {
+    display: flex;
+    width: 100%;
+
+    width: 100%;
+    margin: auto;
+  }
+
+  .number-car-out {
+    width: 300px;
+    margin: auto;
+    width: 250px;
+    padding: 38px;
+  }
+  .title-MakeOurNumbers {
+    font-size: 50px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .real-time-numbers-outnumber {
+    padding: 0 300px;
+  }
+}
+.number-car-out p {
+  font-size: 40px;
+  padding-top: 20px;
+}
+.intro-button {
+  background-color: transparent;
+  /* border-color: #dc3545; */
+  /* border-width: 14px; */
+  border: solid #555555;
+  color: #555555;
+  margin-top: 20px;
+  padding: 20px 50px;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 3%),
+    inset 0px 4px 3px -2px rgb(0 0 0 / 7%);
+  width: 100%;
+}
+.intro-button:hover {
+  color: #555555;
+
+  background-color: #a2a2a2;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  /* border-color: #dc3545; */
+}
+.image-intro-container {
+  height: 100%;
+  width: 100%;
+}
+.image-title-intro-container {
+  font-size: 39px;
+  color: #8b0e08;
+  font-weight: 300;
+  text-align: center;
+}
+.MakeOurNumbers-container {
+  background-color: #9f1711;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 40px 0px;
+  width: 100%;
+}
+.search-form-container {
+  min-height: 300px;
+  background-color: #8b0e08;
+  color: white;
+  text-align: center;
+}
+.real-time-numbers-outnumber {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+.number-car-out {
+  background-color: #ad3a34;
+  padding: 29px;
+
+  min-height: 200px;
+}
+.paragraph-search-form {
+  width: 80%;
+  margin: auto;
+}
+.search-form-form {
+  text-align: left;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.form-button-home {
+  width: 50%;
+}

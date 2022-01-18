@@ -1,0 +1,27 @@
+.intro-contactus-container {
+  color: #86110e;
+}
+.image-container {
+  width: 300px;
+}
+.contact-us-list-container {
+  display: flex;
+  justify-content: center;
+  color: #86110e;
+  margin: 150px 0;
+}
+.contact-us-info-element {
+  padding: 10px;
+  border: 2px solid rgb(229 229 229);
+  margin: 10px;
+}
+.contact-us-form {
+  border: 2px solid white;
+}
+.contact-us-form-container {
+  min-height: 600px;
+  background-color: #8b0e08;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}

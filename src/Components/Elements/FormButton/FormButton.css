@@ -1,0 +1,20 @@
+.form-button-element {
+  border: 2px solid white;
+  padding: 9px 58px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.form-button-element:hover {
+  color: #8b0e08;
+  background-color: white;
+  border: 2px solid transparent;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}

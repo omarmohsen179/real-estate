@@ -1,0 +1,22 @@
+.gallary-container {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+.image-element {
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid rgb(199, 199, 199);
+}
+@media screen and (min-width: 1400px) {
+  .center-large-view {
+    display: flex;
+    justify-content: center;
+  }
+  .gallary-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+}

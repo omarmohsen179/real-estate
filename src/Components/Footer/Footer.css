@@ -1,0 +1,53 @@
+.footer-container {
+  min-height: 300px;
+  color: white;
+  padding: 30px;
+  margin-top: 50px;
+}
+.main-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.main-footer h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footer-section-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: 4px solid rgb(247 246 133);
+}
+.footer-section-content {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.footer-section {
+  margin: 0 30px;
+}
+.element-hover:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 800px) {
+  .footer-section {
+    margin: 30px 0px;
+  }
+}
+.footerContactsContainerIcon {
+  color: white !important;
+
+  transition: transform 0.2s;
+}
+.footerContactsContainerIcon:hover {
+  transform: scale(1.15);
+}
+.footerContactsContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  font-size: 32px;
+  cursor: pointer;
+}
