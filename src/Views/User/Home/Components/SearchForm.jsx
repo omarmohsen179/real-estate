@@ -17,7 +17,7 @@ function SearchForm() {
       </div>
       <div className="paragraph-search-form">{data.details}</div>
 
-      <form className="row search-form-form">
+      <form className="row search-form-form client-form">
         <div className={cols.current}>
           <LabelInput
             Label={"Min Price"}

@@ -42,10 +42,7 @@ function Gallery() {
   return (
     <div>
       <UpperPage Title={"Gallery"} />
-      <div
-        className="container"
-        style={{ marginTop: " -100px", textAlign: "center" }}
-      >
+      <div className="container" style={{ textAlign: "center" }}>
         <div className="paragraph-intro ">{data.body2}</div>
         <GallerySection Data={Members} />
       </div>

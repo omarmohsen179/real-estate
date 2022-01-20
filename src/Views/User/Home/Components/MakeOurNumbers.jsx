@@ -21,16 +21,11 @@ function MakeOurNumbers({ Visible }) {
       <div className="row real-time-numbers-outnumber ">
         {data.content.map((ele) => {
           return (
-            <div className="col-lg-4 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-12 col-sm-12 element-counter">
               <div className=" number-car-out">
-                {" "}
-                <div>{ele.title}</div>
+                <div style={{ height: "120px" }}> {ele.title}</div>
                 <p>
-                  {Visible ? (
-                    <CountUp duration={2} end={ele.value} />
-                  ) : (
-                    <CountUp duration={2} start={ele.value} end={0} />
-                  )}
+                  <CountUp duration={2} end={ele.value} />
                 </p>
               </div>
             </div>

@@ -1,10 +1,3 @@
-.member-list-container {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  margin: 0;
-  margin-top: 40px;
-}
 .member-card {
   margin: 20px;
   max-width: 300px;
@@ -13,6 +6,8 @@
 }
 .card-title-team {
   text-transform: uppercase;
+  color: #33496b;
+  font-weight: 600;
 }
 .clickedJop {
   max-height: 300px !important;
@@ -28,7 +23,7 @@
   transition: max-height 1s;
   overflow: hidden;
   max-height: 0;
-  border-bottom: 2px solid #86110e;
+  border-bottom: 2px solid #43597d;
   padding: 0px;
   width: 80%;
 }
@@ -47,5 +42,28 @@
 
   line-height: normal;
   cursor: pointer;
-  color: #000000;
+  color: #5a5a5a;
+}
+.member-list-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 40px;
+}
+@media screen and (min-width: 1000px) {
+  .member-list-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .member-list-container {
+    padding: 0;
+  }
+  .card-div-col {
+    display: contents !important  ;
+  }
+}
+.card-div-col {
+  display: flex;
+  justify-content: center;
 }

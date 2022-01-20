@@ -21,7 +21,14 @@ function ContactUslist() {
     },
   ];
   return (
-    <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+    <div
+      style={{
+        width: "100%",
+        display: "flex",
+        justifyContent: "center",
+        textAlign: "center",
+      }}
+    >
       <div className="row contact-us-list-container container">
         {data.map((ele) => {
           return (
@@ -30,7 +37,7 @@ function ContactUslist() {
                 <img className="image-container" src={ele.image} />
               </div>
               <div>
-                <h2 style={{ fontWeight: 300 }}>{ele.title}</h2>
+                <h2 style={{ fontWeight: 600 }}>{ele.title}</h2>
                 <p>{ele.details}</p>
               </div>
             </div>

@@ -13,12 +13,12 @@ function ContactUsForm() {
   const cols = useRef("col-lg-4 col-md-4 col-sm-12");
   return (
     <div className="contact-us-form-container">
-      <div className="contact-us-form container">
-        <div className="title-MakeOurNumbers" style={{ fontSize: "70px" }}>
+      <div className="contact-us-form container ">
+        <div className="title-MakeOurNumbers">
           <DevidText text={data.Title} />
         </div>
 
-        <form className="row search-form-form">
+        <form className="row search-form-form client-form">
           <div className={cols.current}>
             <LabelInput Name={"Name"} Label={"Name"} placeholder={"Name"} />
           </div>

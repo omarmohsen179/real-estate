@@ -1,13 +1,11 @@
-.Upper-info-intro {
-  color: #8b0e08;
-}
 .title-intro {
   font-size: 39px;
 }
 .intro-container {
   display: flex;
   justify-content: center;
-  margin: 100px 0;
+  margin-bottom: 100px;
+  color: #607699;
 }
 .subtitle-intro {
   font-size: 14px;
@@ -15,11 +13,12 @@
   letter-spacing: 1px;
 }
 .paragraph-intro {
-  color: black;
+  color: rgb(102, 102, 102);
+  font-size: 20px;
 }
 .image-intro-container {
   min-height: 500px;
-  background-color: #8b0e08;
+  background-color: #607699;
 }
 
 @media screen and (max-width: 1000px) {
@@ -47,9 +46,6 @@
 }
 
 @media screen and (min-width: 1000px) {
-  .intro-container {
-    padding: 0 124px;
-  }
   .second-intro-container {
     display: flex;
     width: 100%;
@@ -58,21 +54,27 @@
     margin: auto;
   }
 
-  .number-car-out {
-    width: 300px;
-    margin: auto;
-    width: 250px;
-    padding: 38px;
-  }
   .title-MakeOurNumbers {
     font-size: 50px;
     padding-top: 30px;
   }
 }
-
+@media screen and (min-width: 1000px) and (max-width: 1230px) {
+  .number-car-out {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1230px) {
+  .number-car-out {
+    width: 400px;
+  }
+}
 @media screen and (min-width: 1300px) {
   .real-time-numbers-outnumber {
-    padding: 0 300px;
+  }
+  .element-counter {
+    display: flex;
+    justify-content: center;
   }
 }
 .number-car-out p {
@@ -108,21 +110,22 @@
 }
 .image-title-intro-container {
   font-size: 39px;
-  color: #8b0e08;
+
   font-weight: 300;
   text-align: center;
 }
 .MakeOurNumbers-container {
-  background-color: #9f1711;
+  background-image: linear-gradient(#395480, #607699);
   color: white;
   text-align: center;
   margin: auto;
   padding: 40px 0px;
   width: 100%;
 }
+
 .search-form-container {
   min-height: 300px;
-  background-color: #8b0e08;
+  background-image: linear-gradient(#607699, #395480);
   color: white;
   text-align: center;
 }
@@ -133,10 +136,9 @@
   width: 100%;
 }
 .number-car-out {
-  background-color: #ad3a34;
-  padding: 29px;
-
-  min-height: 200px;
+  background-color: #1f2e478f;
+  padding: 20px;
+  font-size: 30px;
 }
 .paragraph-search-form {
   width: 80%;

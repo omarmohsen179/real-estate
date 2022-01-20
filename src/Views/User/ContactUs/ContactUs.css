@@ -1,5 +1,5 @@
 .intro-contactus-container {
-  color: #86110e;
+  color: #43597d;
 }
 .image-container {
   width: 300px;
@@ -7,7 +7,7 @@
 .contact-us-list-container {
   display: flex;
   justify-content: center;
-  color: #86110e;
+  color: #43597d;
   margin: 150px 0;
 }
 .contact-us-info-element {
@@ -15,13 +15,19 @@
   border: 2px solid rgb(229 229 229);
   margin: 10px;
 }
-.contact-us-form {
-  border: 2px solid white;
+
+@media screen and (min-width: 1000px) {
+  .contact-us-form {
+    border: 2px solid white;
+  }
+  .contact-us-form-container {
+    padding: 40px;
+  }
 }
+
 .contact-us-form-container {
   min-height: 600px;
-  background-color: #8b0e08;
+  background-color: #43597d;
   color: white;
   text-align: center;
-  padding: 40px;
 }

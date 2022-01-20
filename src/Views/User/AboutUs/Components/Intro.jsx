@@ -1,5 +1,6 @@
 import React from "react";
 import DevidText from "../../../../Components/DevidText/DevidText";
+import Image from "../../../../Components/Image";
 
 function Intro({ IntroImage }) {
   const data = {
@@ -14,20 +15,21 @@ function Intro({ IntroImage }) {
   return (
     <div className="aboutus-intro-container container">
       <div>
-        <img className="intro-image-container" src={IntroImage} />
         <div className="title-intro">
           <DevidText text={data.title} />
         </div>
+
+        <Image src={IntroImage} className=" intro-image-container" />
         <div className="paragraph-intro ">{data.body}</div>
         <div className="row" style={{ margin: 0 }}>
-          <div className="col">
+          <div className="col-lg-8 col-md-6 col-sm-12">
             <iframe
               width={"100%"}
               height={"345"}
               src="https://www.youtube.com/embed/UJv9-F7SN5A"
             ></iframe>
           </div>
-          <div className="col">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="title-intro">
               <DevidText text={data.title2} />
             </div>

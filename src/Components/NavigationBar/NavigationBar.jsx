@@ -45,14 +45,15 @@ function NavigationBar() {
     <nav
       className={" NavbarDraw "}
       style={{
-        position:
+        /*  position:
           screenSize.dynamicWidth < 1000 && getRoutes().route == "/"
             ? ""
             : screenSize.dynamicWidth > 1000
             ? "absolute"
-            : "",
-        opacity:
-          screenSize.dynamicWidth < 1000 && getRoutes().route == "/" ? 1 : 0.6,
+            : "",*/
+        position: screenSize.dynamicWidth < 1000 ? "" : "absolute",
+        //  opacity: screenSize.dynamicWidth < 1000 && getRoutes().route == "/" ? 1 : 0.6,
+        backgroundColor: "transparent",
       }}
       id="mynav"
     >
@@ -67,7 +68,7 @@ function NavigationBar() {
         </div>
         <ul className="Horizontal-list">
           {pages.current.map((ele) => (
-            <li>
+            <li className={getRoutes().route == ele.route ? "active-page" : ""}>
               <Link className="Horizontal-list-elements" to={ele.route}>
                 {ele.name}
               </Link>

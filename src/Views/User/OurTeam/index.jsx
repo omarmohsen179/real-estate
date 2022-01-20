@@ -11,10 +11,7 @@ function OurTeam() {
   return (
     <div>
       <UpperPage Title={"Meat The Home Team"} />
-      <div
-        className="container"
-        style={{ marginTop: " -100px", textAlign: "center" }}
-      >
+      <div className="container" style={{ textAlign: "center" }}>
         <div className="paragraph-intro ">{data.body2}</div>
       </div>
       <MemberList />

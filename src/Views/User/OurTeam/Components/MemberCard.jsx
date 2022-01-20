@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emp from "../../../../Assets/OurTeam/emp.jpg";
 function MemberCard({ Data, index, selectedperson, Person_details }) {
-  const cols = useRef("col-lg-4 col-md-6 col-sm-12");
+  const cols = useRef("col-lg-4 col-md-6 col-sm-12 card-div-col");
   let social = useRef([
     { type: "facebook" },
     { type: "twitter" },
@@ -24,8 +24,8 @@ function MemberCard({ Data, index, selectedperson, Person_details }) {
             className="card-subtitle mb-2 text-muted TeamMembers_joptitle"
             onClick={() => Person_details(Data.Id)}
           >
-            {Data.posistion}{" "}
-            <b style={{ color: "#86110e", fontWeight: 100 }}>
+            {Data.posistion}
+            <b style={{ color: "#43597d", fontWeight: 100 }}>
               {" (Click Here)"}
             </b>
           </h6>
@@ -45,7 +45,7 @@ function MemberCard({ Data, index, selectedperson, Person_details }) {
                   return (
                     <a target="_blank" className="footerContactsContainerIcon">
                       <i
-                        style={{ color: "#8c8989" }}
+                        style={{ color: "#43597d" }}
                         className={"fab fa-" + ele.type}
                       ></i>
                     </a>

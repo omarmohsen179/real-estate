@@ -2,6 +2,7 @@ import React, { useCallback } from "react";
 import incccc from "../../../../Assets/Navigation/Intro.jpg";
 import DevidText from "../../../../Components/DevidText/DevidText";
 import { useHistory } from "react-router-dom";
+import Image from "../../../../Components/Image";
 function Intro() {
   let history = useHistory();
   const data = {
@@ -43,7 +44,7 @@ function Intro() {
       </div>
       <div className="col-lg-6 col-md-12 col-sm-12 ">
         <div className="second-intro-container">
-          <img className="image-intro-container" src={data.Image} />
+          <Image src={data.Image} className="image-intro-container" />
         </div>
 
         <div className="image-title-intro-container">

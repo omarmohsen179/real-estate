@@ -1,16 +1,34 @@
 import React from "react";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import "./UpperPages.css";
-import back from "../../Assets/Aboutus/background.jpg";
-function UpperPage({ Title }) {
+import back from "../../Assets/Navigation/shared.jpg";
+function UpperPage({
+  Title,
+  Description,
+  BackgroundImage = back,
+  Height = "400px",
+  centrilze = "180px",
+}) {
   return (
     <div
       className="header__image2"
-      style={{ backgroundImage: "url(" + back + ")" }}
+      style={{
+        backgroundImage: "url(" + BackgroundImage + ")",
+        minHeight: Height,
+      }}
     >
-      <NavigationBar />
-      <div className="Text-container-Upper2">
-        <div className="Upper-title">{Title}</div>
+      <div
+        style={{
+          backgroundColor: "rgb(40 87 163 / 35%)",
+          display: "inherit",
+          minHeight: Height,
+        }}
+      >
+        <NavigationBar />
+        <div className="Text-container-Upper2" style={{ marginTop: centrilze }}>
+          <div className="Upper-title">{Title}</div>
+          {Description ? <p className="Upper-details">{Description}</p> : null}
+        </div>
       </div>
     </div>
   );

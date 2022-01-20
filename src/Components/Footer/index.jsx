@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Footer.css";
-import back from "../../Assets/Aboutus/background.jpg";
+import back from "../../Assets/Navigation/shared.jpg";
 import { useLocation, Link } from "react-router-dom";
 function Footer() {
   let pages = useRef([
@@ -27,7 +27,8 @@ function Footer() {
         <div className={colsdiv}>
           <h2 className="footer-section-title">Our Office</h2>
           <div className="footer-section-content">
-            2011 South Gregg Street Big Spring, TX 79720 (888) 442-6715
+            13 El-Khalifa El-Maamoun, Mansheya El-Bakry, Heliopolis, Cairo
+            Governorate
           </div>
         </div>
         <div className={colsdiv}>

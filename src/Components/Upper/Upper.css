@@ -15,7 +15,7 @@
   font-weight: 300;
   color: rgb(255, 255, 255);
   letter-spacing: 0px;
-  font-family: Montserrat;
+
   text-shadow: rgb(0 0 0 / 70%) 1px 1px 3px;
   opacity: 1;
 
@@ -41,7 +41,7 @@
     font-size: 50px;
   }
   .Upper-details {
-    white-space: nowrap;
+    display: none;
   }
 }
 @media screen and (max-width: 500px) {

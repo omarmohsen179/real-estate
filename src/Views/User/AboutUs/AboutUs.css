@@ -1,6 +1,8 @@
 .aboutus-intro-container {
-  color: #86110e;
+  color: #43597d;
 }
 .intro-image-container {
+  min-width: 100%;
   max-width: 100%;
+  min-height: 500px;
 }
